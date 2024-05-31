@@ -7,7 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinaFlow.Api", "FinaFlow.Ap
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinaFlow.App", "FinaFlow.App\FinaFlow.App.csproj", "{5EAB9E20-FCCD-4CD9-92CF-9C00F1CD69A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinaFlow.Shared", "FinaFlow.Shared\FinaFlow.Shared.csproj", "{51607BC9-0BA4-4FFE-B681-E2539F1DA529}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinaFlow.Shared", "FinaFlow.Shared\FinaFlow.Shared.csproj", "{51607BC9-0BA4-4FFE-B681-E2539F1DA529}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F2317F0D-3C56-4BF1-B040-C0BB561301EF}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

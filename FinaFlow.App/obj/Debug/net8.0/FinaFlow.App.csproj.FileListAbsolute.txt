@@ -623,6 +623,7 @@ C:\Users\user\Desktop\FinaFlow\FinaFlow.App\obj\Debug\net8.0\FinaFlow.App.Assemb
 C:\Users\user\Desktop\FinaFlow\FinaFlow.App\obj\Debug\net8.0\FinaFlow.App.AssemblyInfo.cs
 C:\Users\user\Desktop\FinaFlow\FinaFlow.App\obj\Debug\net8.0\FinaFlow.App.csproj.CoreCompileInputs.cache
 C:\Users\user\Desktop\FinaFlow\FinaFlow.App\obj\Debug\net8.0\FinaFlow.App.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Desktop\FinaFlow\FinaFlow.App\obj\Debug\net8.0\FinaFlow.App.sourcelink.json
 C:\Users\user\Desktop\FinaFlow\FinaFlow.App\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Authorization.wasm
 C:\Users\user\Desktop\FinaFlow\FinaFlow.App\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Components.wasm
 C:\Users\user\Desktop\FinaFlow\FinaFlow.App\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Components.Forms.wasm

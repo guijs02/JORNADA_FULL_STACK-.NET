@@ -845,25 +845,25 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-yno5K8hjprtT1Cx65iKIJaN+dqWKhABS67w4CBJwvGg=",
+      "hash": "sha256-dSmHaP9aH\/0afw4VVZGVq7lbzOISqO9y96MLlk4sgmo=",
       "url": "_framework\/FinaFlow.Shared.wasm"
     },
     {
-      "hash": "sha256-JTSL5EZjLNTEds7ZVy5dRsRA16z+emmdPY3iRT9mSvY=",
+      "hash": "sha256-vt1L1B62SuSsKiV+Iy6midFv4\/2qWyXsUSu35s6v\/BM=",
       "url": "_framework\/FinaFlow.Shared.pdb"
     },
     {
-      "hash": "sha256-5HiT89kmv\/xBAI7TPhB48CGLBWKTSOZWMBPxifXbRx0=",
+      "hash": "sha256-oWx11hbSP4n7fOthhk5kNX5gbNiCTjtBgb0XnGX46ng=",
       "url": "_framework\/FinaFlow.App.wasm"
     },
     {
-      "hash": "sha256-4Y7tgvGFBJNoczK8bT+x+UEHo2SvI+ev\/cjTJWjUsgQ=",
+      "hash": "sha256-UClWxIwUm8f3S6jFfvs9z+43gaUb8SS9xHXjx82Fq44=",
       "url": "_framework\/FinaFlow.App.pdb"
     },
     {
-      "hash": "sha256-xjWnPmLeLjZO7WNfF1c8+2dg5G\/b94k8eOPJVM9bVwI=",
+      "hash": "sha256-YApF\/EtC08nEdMn1AfuIAAINv0DpjA4lJEKX6BwCdBg=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "BgL7MOuJ"
+  "version": "f7TyQZo+"
 };

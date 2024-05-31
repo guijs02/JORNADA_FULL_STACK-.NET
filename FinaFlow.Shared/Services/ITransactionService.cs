@@ -7,10 +7,10 @@ namespace FinaFlow.Shared.Services
 {
     public interface ITransactionService
     {
-        Task<Response<Category?>> CreateAsync(CreateTransactionRequest request);
-        Task<Response<Category?>> UpdateAsync(UpdateCategoyRequest request);
-        Task<Response<Category?>> DeleteAsync(DeleteCategoryRequest request);
-        Task<Response<Category?>> GetByIdAsync(GetByIdCategoryRequest request);
-        Task<PagedResponse<List<Category>>> GetAllAsync(GetAllCategoriesRequest request);
+        Task<Response<Transaction?>> CreateAsync(CreateTransactionRequest request);
+        Task<Response<Transaction?>> UpdateAsync(UpdateTransactionRequest request);
+        Task<Response<Transaction?>> DeleteAsync(DeleteTransactionRequest request);
+        Task<Response<Transaction?>> GetByIdAsync(GetTransactionByIdRequest request);
+        Task<PagedResponse<List<Transaction>>> GetByPeriodAsync(GetTransactionByPeriodRequest request);
     }
 }

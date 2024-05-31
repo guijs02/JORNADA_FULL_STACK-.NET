@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "FinaFlow.App",
   "resources": {
-    "hash": "sha256-9y8GaJXXZOR7vmF5ZJFCUQn50XgofDWXbyMa142t2Lk=",
+    "hash": "sha256-pWFJVP0OJGhU1N5C/Kt1QMpyF5W4vMxdWJO3sABW1Tw=",
     "jsModuleNative": {
       "dotnet.native.8.0.3.1t5jqkoj9w.js": "sha256-D4sYBYmDfH/YekgYRgX959/2RG6k28sJSHmcsn+iikk="
     },
@@ -208,12 +208,12 @@
       "mscorlib.wasm": "sha256-/xjZuJwCmantx5vGyH5ZZ8keySSTeu+YHKQRJbZzcuM=",
       "netstandard.wasm": "sha256-vuFKmCGJbyv85DrzI6S1ZvCikuhIllH6hqbXIL+fUAA=",
       "System.Private.CoreLib.wasm": "sha256-SZkozEDkHEFN0VaDmhl2HOenGaqTOmHqEGkraz3Aejc=",
-      "FinaFlow.Shared.wasm": "sha256-pl4TC5ufwxi5R0WO4aNEPQh8b3mVe2hdRyG4Otd8gwM=",
-      "FinaFlow.App.wasm": "sha256-/+JvHdwAfQ/GdJxZtg08E09xFYw+/QO0/Rs0ZqOH3wI="
+      "FinaFlow.Shared.wasm": "sha256-dSmHaP9aH/0afw4VVZGVq7lbzOISqO9y96MLlk4sgmo=",
+      "FinaFlow.App.wasm": "sha256-oWx11hbSP4n7fOthhk5kNX5gbNiCTjtBgb0XnGX46ng="
     },
     "pdb": {
-      "FinaFlow.Shared.pdb": "sha256-1rYlG4ehrhWAI/6pttuy3QwbXAJZSi8zrNmz1kiw7sU=",
-      "FinaFlow.App.pdb": "sha256-gw34/OzqbIBHefzl/hgHlToyxOjsq/GSef/9xq9we8Q="
+      "FinaFlow.Shared.pdb": "sha256-vt1L1B62SuSsKiV+Iy6midFv4/2qWyXsUSu35s6v/BM=",
+      "FinaFlow.App.pdb": "sha256-UClWxIwUm8f3S6jFfvs9z+43gaUb8SS9xHXjx82Fq44="
     }
   },
   "cacheBootResources": true,
