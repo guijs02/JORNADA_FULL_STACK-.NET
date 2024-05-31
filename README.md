@@ -14,6 +14,9 @@ Esta aplicação tem a finalidade do usuário manipular, visualizar as receitas 
  Back-end
 - C#
 - .NET Core
+- Docker
+- SQL Server
+- EF Core
 <br>
 
 ## 🛠 Funcionalidades
@@ -31,3 +34,6 @@ Esta aplicação tem a finalidade do usuário manipular, visualizar as receitas 
 - DTO
 - API RestFul
 
+## 🔎 Status do Projeto
+
+![Badge em Desenvolvimento](https://img.shields.io/badge/Status-Em%20Desenvolvimento-green)
