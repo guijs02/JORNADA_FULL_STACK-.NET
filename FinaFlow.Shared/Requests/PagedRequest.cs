@@ -1,5 +1,3 @@
-using FinaFlow.Shared.Models;
-
 namespace FinaFlow.Shared.Requests;
 
 public class PagedRequest : Request

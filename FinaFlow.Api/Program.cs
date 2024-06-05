@@ -1,19 +1,30 @@
+using FinaFlow.Api;
+using FinaFlow.Api.Common.Api;
 using FinaFlow.Api.Data.Context;
+using FinaFlow.Api.Endpoints;
 using FinaFlow.Api.Services;
 using FinaFlow.Shared.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.AddConfiguration();
+builder.AddDataContexts();
+builder.AddCrossOrigin();
+builder.AddDocumentation();
+builder.AddServices();
+builder.Services.AddAuthorization();
+
 var app = builder.Build();
 
-//builder.Services.AddDbContext<AppDbContext>(
-//        x => x.UseSqlServer(connectionString)
-//);
+if(app.Environment.IsDevelopment())
+    app.ConfigureDevEnvironment();
 
-builder.Services.AddTransient<ICategoryService, CategoryService>();
-builder.Services.AddTransient<ITransactionService, TransactionService>();
-//builder.Services.AddScoped<DbContext, AppDbContext>();
+app.UseHttpsRedirection();
 
-app.MapGet("/", () => "Hello World!");
+app.UseCors(ApiConfiguration.CorsPolicyName);
+
+app.MapEndpoints();
+app.UseAuthorization();
 
 app.Run();

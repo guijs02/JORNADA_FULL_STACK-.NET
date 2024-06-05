@@ -1,4 +1,3 @@
-using FinaFlow.Shared.Models;
 using System.Text.Json.Serialization;
 
 namespace FinaFlow.Shared.Responses;

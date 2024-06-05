@@ -13,6 +13,7 @@ namespace FinaFlow.Api.Services
         {
             try
             {
+                await Task.Delay(5000);
                 var category = new Category()
                 {
                     UserId = request.UserId,
@@ -23,13 +24,12 @@ namespace FinaFlow.Api.Services
                 await context.Categories.AddAsync(category);
                 await context.SaveChangesAsync();
 
-                return new Response<Category?>(null, 201, "Categoria criada com sucesso!");
+                return new Response<Category?>(category, 201, "Categoria criada com sucesso!");
 
             }
-            catch (Exception ex)
+            catch (Exception ex) 
             {
-
-                throw;
+                return new Response<Category?>(null, 500, "Erro ao criar categoria!");
             }
         }
 
@@ -52,8 +52,7 @@ namespace FinaFlow.Api.Services
             }
             catch (Exception ex)
             {
-
-                throw;
+                return new Response<Category?>(null, 500, "Erro ao deletar categoria!");
             }
         }
 
@@ -75,7 +74,6 @@ namespace FinaFlow.Api.Services
 
                 var count = await query.CountAsync();
 
-
                 return new PagedResponse<List<Category>?>(
                      categories, 
                      count,
@@ -84,8 +82,7 @@ namespace FinaFlow.Api.Services
             }
             catch (Exception ex)
             {
-
-                throw;
+                return new PagedResponse<List<Category>?>(null, 500, "Erro ao obter categorias!");
             }
         }
 
@@ -105,8 +102,7 @@ namespace FinaFlow.Api.Services
             }
             catch (Exception ex)
             {
-
-                throw;
+                return new Response<Category?>(null, 500, "Erro ao obter categoria!");
             }
         }
 
@@ -132,8 +128,7 @@ namespace FinaFlow.Api.Services
             }
             catch (Exception ex)
             {
-
-                throw;
+                return new Response<Category?>(null, 500, "Erro ao alterar categoria!");
             }
         }
     }

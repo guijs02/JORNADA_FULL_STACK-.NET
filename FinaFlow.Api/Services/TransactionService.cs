@@ -96,7 +96,6 @@ namespace FinaFlow.Api.Services
             catch
             {
                 return new PagedResponse<List<Transaction>?>(null, 500, "Não foi possivel realizar a operação");
-                throw;
             }
         }
 
