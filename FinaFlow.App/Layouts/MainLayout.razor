@@ -1,0 +1,23 @@
+﻿@inherits LayoutComponentBase
+
+<MudThemeProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
+
+<MudLayout>
+    <MudAppBar>
+        Fina Flow
+    </MudAppBar>
+    <MudNavMenu>
+        <MudNavLink Href="/categories" Match="NavLinkMatch.Prefix">Categorias</MudNavLink>
+        <MudNavLink Href="#" Match="NavLinkMatch.Prefix">Transações</MudNavLink>
+    </MudNavMenu>
+    <MudDrawer Open="true">
+
+    </MudDrawer>
+    <MudMainContent>
+        <MudContainer>
+            @Body
+        </MudContainer>
+    </MudMainContent>
+</MudLayout>
